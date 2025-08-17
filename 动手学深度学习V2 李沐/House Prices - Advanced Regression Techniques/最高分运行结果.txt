@@ -1,0 +1,344 @@
+Skewed numeric features (log1p applied) ['MiscVal', 'LotArea', 'LowQualFinSF', '3SsnPorch', 'BsmtFinSF2', 'EnclosedPorch', 'ScreenPorch', 'BsmtHalfBath', 'MasVnrArea', 'OpenPorchSF', 'OverallQual_x_TotalSF', 'WoodDeckSF', 'OverallQual_x_LivArea', 'LotFrontage', 'TotalSF', '1stFlrSF', 'BsmtFinSF1', 'TotalPorchSF', 'GrLivArea', 'TotalBsmtSF', 'BsmtUnfSF', '2ndFlrSF']
+Target encoding features ['Neighborhood', 'Exterior2nd', 'Exterior1st', 'MSSubClass', 'TotRmsAbvGrd', 'MoSold']
+Total features 96
+
+--- Training LGB_v0_s42 (CPU) ---
+LGB fold 0 rmse 0.117608
+LGB fold 1 rmse 0.144677
+LGB fold 2 rmse 0.099349
+LGB fold 3 rmse 0.124337
+LGB fold 4 rmse 0.137657
+LGB fold 5 rmse 0.132959
+LGB fold 6 rmse 0.138219
+LGB fold 7 rmse 0.101173
+LGB fold 8 rmse 0.123734
+LGB fold 9 rmse 0.085670
+
+--- Training LGB_v0_s7 (CPU) ---
+LGB fold 0 rmse 0.114883
+LGB fold 1 rmse 0.133140
+LGB fold 2 rmse 0.125797
+LGB fold 3 rmse 0.093214
+LGB fold 4 rmse 0.138979
+LGB fold 5 rmse 0.147591
+LGB fold 6 rmse 0.113300
+LGB fold 7 rmse 0.097915
+LGB fold 8 rmse 0.120591
+LGB fold 9 rmse 0.124745
+
+--- Training LGB_v0_s13 (CPU) ---
+LGB fold 0 rmse 0.152146
+LGB fold 1 rmse 0.131313
+LGB fold 2 rmse 0.134385
+LGB fold 3 rmse 0.098891
+LGB fold 4 rmse 0.096222
+LGB fold 5 rmse 0.120035
+LGB fold 6 rmse 0.131826
+LGB fold 7 rmse 0.124598
+LGB fold 8 rmse 0.109839
+LGB fold 9 rmse 0.113488
+
+--- Training LGB_v1_s42 (CPU) ---
+LGB fold 0 rmse 0.123416
+LGB fold 1 rmse 0.145301
+LGB fold 2 rmse 0.100416
+LGB fold 3 rmse 0.126481
+LGB fold 4 rmse 0.144475
+LGB fold 5 rmse 0.139149
+LGB fold 6 rmse 0.144079
+LGB fold 7 rmse 0.109831
+LGB fold 8 rmse 0.127484
+LGB fold 9 rmse 0.088528
+
+--- Training LGB_v1_s7 (CPU) ---
+LGB fold 0 rmse 0.116358
+LGB fold 1 rmse 0.130933
+LGB fold 2 rmse 0.131346
+LGB fold 3 rmse 0.098715
+LGB fold 4 rmse 0.144738
+LGB fold 5 rmse 0.150224
+LGB fold 6 rmse 0.113100
+LGB fold 7 rmse 0.100785
+LGB fold 8 rmse 0.127162
+LGB fold 9 rmse 0.130458
+
+--- Training LGB_v1_s13 (CPU) ---
+LGB fold 0 rmse 0.156717
+LGB fold 1 rmse 0.135159
+LGB fold 2 rmse 0.136907
+LGB fold 3 rmse 0.103352
+LGB fold 4 rmse 0.098956
+LGB fold 5 rmse 0.119583
+LGB fold 6 rmse 0.137784
+LGB fold 7 rmse 0.127752
+LGB fold 8 rmse 0.111863
+LGB fold 9 rmse 0.112230
+
+--- Training LGB_v2_s42 (CPU) ---
+LGB fold 0 rmse 0.119827
+LGB fold 1 rmse 0.143910
+LGB fold 2 rmse 0.100737
+LGB fold 3 rmse 0.120245
+LGB fold 4 rmse 0.134364
+LGB fold 5 rmse 0.133265
+LGB fold 6 rmse 0.133817
+LGB fold 7 rmse 0.104770
+LGB fold 8 rmse 0.124854
+LGB fold 9 rmse 0.081525
+
+--- Training LGB_v2_s7 (CPU) ---
+LGB fold 0 rmse 0.113681
+LGB fold 1 rmse 0.133150
+LGB fold 2 rmse 0.125507
+LGB fold 3 rmse 0.087341
+LGB fold 4 rmse 0.138425
+LGB fold 5 rmse 0.145129
+LGB fold 6 rmse 0.106831
+LGB fold 7 rmse 0.096256
+LGB fold 8 rmse 0.119195
+LGB fold 9 rmse 0.123008
+
+--- Training LGB_v2_s13 (CPU) ---
+LGB fold 0 rmse 0.154782
+LGB fold 1 rmse 0.128208
+LGB fold 2 rmse 0.137477
+LGB fold 3 rmse 0.101829
+LGB fold 4 rmse 0.090859
+LGB fold 5 rmse 0.120804
+LGB fold 6 rmse 0.128543
+LGB fold 7 rmse 0.120441
+LGB fold 8 rmse 0.108913
+LGB fold 9 rmse 0.107406
+
+--- Training LGB_v3_s42 (CPU) ---
+LGB fold 0 rmse 0.117381
+LGB fold 1 rmse 0.146318
+LGB fold 2 rmse 0.098568
+LGB fold 3 rmse 0.124477
+LGB fold 4 rmse 0.139719
+LGB fold 5 rmse 0.135190
+LGB fold 6 rmse 0.139995
+LGB fold 7 rmse 0.101164
+LGB fold 8 rmse 0.123279
+LGB fold 9 rmse 0.085879
+
+--- Training LGB_v3_s7 (CPU) ---
+LGB fold 0 rmse 0.116535
+LGB fold 1 rmse 0.132572
+LGB fold 2 rmse 0.127344
+LGB fold 3 rmse 0.094804
+LGB fold 4 rmse 0.140159
+LGB fold 5 rmse 0.149879
+LGB fold 6 rmse 0.115403
+LGB fold 7 rmse 0.096824
+LGB fold 8 rmse 0.120289
+LGB fold 9 rmse 0.126388
+
+--- Training LGB_v3_s13 (CPU) ---
+LGB fold 0 rmse 0.153048
+LGB fold 1 rmse 0.131582
+LGB fold 2 rmse 0.135248
+LGB fold 3 rmse 0.098516
+LGB fold 4 rmse 0.096087
+LGB fold 5 rmse 0.120526
+LGB fold 6 rmse 0.134026
+LGB fold 7 rmse 0.123944
+LGB fold 8 rmse 0.109288
+LGB fold 9 rmse 0.114795
+
+--- Training LGB_v4_s42 (CPU) ---
+LGB fold 0 rmse 0.116797
+LGB fold 1 rmse 0.144992
+LGB fold 2 rmse 0.098980
+LGB fold 3 rmse 0.123964
+LGB fold 4 rmse 0.138348
+LGB fold 5 rmse 0.134043
+LGB fold 6 rmse 0.139081
+LGB fold 7 rmse 0.100224
+LGB fold 8 rmse 0.124024
+LGB fold 9 rmse 0.085524
+
+--- Training LGB_v4_s7 (CPU) ---
+LGB fold 0 rmse 0.115134
+LGB fold 1 rmse 0.132467
+LGB fold 2 rmse 0.125667
+LGB fold 3 rmse 0.091866
+LGB fold 4 rmse 0.137664
+LGB fold 5 rmse 0.146549
+LGB fold 6 rmse 0.114089
+LGB fold 7 rmse 0.097381
+LGB fold 8 rmse 0.119737
+LGB fold 9 rmse 0.125651
+
+--- Training LGB_v4_s13 (CPU) ---
+LGB fold 0 rmse 0.152911
+LGB fold 1 rmse 0.134879
+LGB fold 2 rmse 0.135245
+LGB fold 3 rmse 0.099812
+LGB fold 4 rmse 0.095951
+LGB fold 5 rmse 0.119459
+LGB fold 6 rmse 0.131643
+LGB fold 7 rmse 0.123788
+LGB fold 8 rmse 0.109457
+LGB fold 9 rmse 0.113172
+
+--- Training LGB_v5_s42 (CPU) ---
+LGB fold 0 rmse 0.118748
+LGB fold 1 rmse 0.146986
+LGB fold 2 rmse 0.098592
+LGB fold 3 rmse 0.125101
+LGB fold 4 rmse 0.140343
+LGB fold 5 rmse 0.136333
+LGB fold 6 rmse 0.139570
+LGB fold 7 rmse 0.102549
+LGB fold 8 rmse 0.125315
+LGB fold 9 rmse 0.087005
+
+--- Training LGB_v5_s7 (CPU) ---
+LGB fold 0 rmse 0.117141
+LGB fold 1 rmse 0.133491
+LGB fold 2 rmse 0.127638
+LGB fold 3 rmse 0.097051
+LGB fold 4 rmse 0.139208
+LGB fold 5 rmse 0.149373
+LGB fold 6 rmse 0.116200
+LGB fold 7 rmse 0.098703
+LGB fold 8 rmse 0.119952
+LGB fold 9 rmse 0.127307
+
+--- Training LGB_v5_s13 (CPU) ---
+LGB fold 0 rmse 0.153847
+LGB fold 1 rmse 0.134009
+LGB fold 2 rmse 0.134790
+LGB fold 3 rmse 0.098418
+LGB fold 4 rmse 0.097343
+LGB fold 5 rmse 0.121969
+LGB fold 6 rmse 0.134859
+LGB fold 7 rmse 0.126235
+LGB fold 8 rmse 0.110135
+LGB fold 9 rmse 0.114257
+
+--- Training LGB_v6_s42 (CPU) ---
+LGB fold 0 rmse 0.849482
+LGB fold 1 rmse 0.843495
+LGB fold 2 rmse 0.860863
+LGB fold 3 rmse 0.851556
+LGB fold 4 rmse 0.845491
+LGB fold 5 rmse 0.853353
+LGB fold 6 rmse 0.853630
+LGB fold 7 rmse 0.853257
+LGB fold 8 rmse 0.861252
+LGB fold 9 rmse 0.864118
+
+--- Training LGB_v6_s7 (CPU) ---
+LGB fold 0 rmse 0.866599
+LGB fold 1 rmse 0.864394
+LGB fold 2 rmse 0.860887
+LGB fold 3 rmse 0.867810
+LGB fold 4 rmse 0.867990
+LGB fold 5 rmse 0.853397
+LGB fold 6 rmse 0.847336
+LGB fold 7 rmse 0.859110
+LGB fold 8 rmse 0.874364
+LGB fold 9 rmse 0.865570
+
+--- Training LGB_v6_s13 (CPU) ---
+LGB fold 0 rmse 0.855134
+LGB fold 1 rmse 0.875375
+LGB fold 2 rmse 0.865745
+LGB fold 3 rmse 0.874153
+LGB fold 4 rmse 0.854713
+LGB fold 5 rmse 0.851635
+LGB fold 6 rmse 0.869312
+LGB fold 7 rmse 0.873234
+LGB fold 8 rmse 0.855508
+LGB fold 9 rmse 0.843391
+
+--- Training CB_v0 (CPU) ---
+CatBoost fold 0 rmse 0.112477
+CatBoost fold 1 rmse 0.140407
+CatBoost fold 2 rmse 0.100497
+CatBoost fold 3 rmse 0.123176
+CatBoost fold 4 rmse 0.137108
+CatBoost fold 5 rmse 0.133677
+CatBoost fold 6 rmse 0.131699
+CatBoost fold 7 rmse 0.103421
+CatBoost fold 8 rmse 0.124604
+CatBoost fold 9 rmse 0.083302
+
+--- Training CB_v1 (CPU) ---
+CatBoost fold 0 rmse 0.121850
+CatBoost fold 1 rmse 0.142635
+CatBoost fold 2 rmse 0.100610
+CatBoost fold 3 rmse 0.130949
+CatBoost fold 4 rmse 0.130574
+CatBoost fold 5 rmse 0.133807
+CatBoost fold 6 rmse 0.145387
+CatBoost fold 7 rmse 0.110277
+CatBoost fold 8 rmse 0.119815
+CatBoost fold 9 rmse 0.085592
+
+--- Training CB_v2 (CPU) ---
+CatBoost fold 0 rmse 0.116680
+CatBoost fold 1 rmse 0.140007
+CatBoost fold 2 rmse 0.104117
+CatBoost fold 3 rmse 0.124922
+CatBoost fold 4 rmse 0.140719
+CatBoost fold 5 rmse 0.140558
+CatBoost fold 6 rmse 0.132088
+CatBoost fold 7 rmse 0.109789
+CatBoost fold 8 rmse 0.128680
+CatBoost fold 9 rmse 0.087716
+
+--- Training CB_v3 (CPU) ---
+CatBoost fold 0 rmse 0.113964
+CatBoost fold 1 rmse 0.139889
+CatBoost fold 2 rmse 0.096724
+CatBoost fold 3 rmse 0.129094
+CatBoost fold 4 rmse 0.131150
+CatBoost fold 5 rmse 0.129698
+CatBoost fold 6 rmse 0.138293
+CatBoost fold 7 rmse 0.110002
+CatBoost fold 8 rmse 0.122706
+CatBoost fold 9 rmse 0.085578
+
+--- Training CB_v4 (CPU) ---
+CatBoost fold 0 rmse 0.112992
+CatBoost fold 1 rmse 0.141096
+CatBoost fold 2 rmse 0.100872
+CatBoost fold 3 rmse 0.129050
+CatBoost fold 4 rmse 0.135621
+CatBoost fold 5 rmse 0.136390
+CatBoost fold 6 rmse 0.132341
+CatBoost fold 7 rmse 0.105100
+CatBoost fold 8 rmse 0.120303
+CatBoost fold 9 rmse 0.084350
+
+=== 构建Meta特征矩阵 ===
+合并后Meta特征维度 (1460, 26)
+添加统计特征后维度 (1460, 31)
+
+=== 方法1 Ridge回归学习权重 ===
+Ridge Meta CV RMSE 0.115494
+
+=== 方法2 NNLS学习权重 ===
+NNLS Meta CV RMSE 0.117734
+NNLS权重和 1.0000
+
+=== 方法3 简单平均 CV RMSE 0.155619 ===
+
+最佳方法 Ridge, CV RMSE 0.115494
+使用Ridge回归（含统计特征）作为最终预测
+最优取整阈值 80000 10, 80000-190000 50, 190000 100
+取整后OOF RMSE 0.115489
+
+Post-processing 自适应取整已应用
+已保存 submission_opt.csv
+
+预测样本示例
+     Id  SalePrice
+0  1461     119850
+1  1462     163050
+2  1463     182950
+3  1464     194300
+4  1465     185500
